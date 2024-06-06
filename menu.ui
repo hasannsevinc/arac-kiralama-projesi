@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Sevinc Car </string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>801</width>
+      <height>601</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>Gorseller/car-rental-social-media-thumbnail-template-flat-cartoon-background-illustration-vector.jpg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuSe_enekler">
+    <property name="title">
+     <string>Seçenekler</string>
+    </property>
+    <addaction name="actionArac_Menu"/>
+    <addaction name="separator"/>
+    <addaction name="actionMusteri_Menu"/>
+    <addaction name="separator"/>
+    <addaction name="actionKiralama_Menu"/>
+    <addaction name="separator"/>
+   </widget>
+   <addaction name="menuSe_enekler"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionArac_Menu">
+   <property name="text">
+    <string>Arac Menu</string>
+   </property>
+  </action>
+  <action name="actionMusteri_Menu">
+   <property name="text">
+    <string>Musteri Menu</string>
+   </property>
+  </action>
+  <action name="actionKiralama_Menu">
+   <property name="text">
+    <string>Kiralama Menu</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
